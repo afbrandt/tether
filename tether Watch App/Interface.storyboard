@@ -10,12 +10,17 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <label alignment="left" text="Find my phone!" textAlignment="center" id="kIf-Oo-ec1"/>
-                        <button width="1" alignment="left" title="Button" id="mAN-X3-VsN">
+                        <label width="134" alignment="left" text="Tether" textAlignment="center" id="kIf-Oo-ec1"/>
+                        <button width="1" height="51" alignment="left" title="Find my phone!" id="mAN-X3-VsN">
                             <connections>
                                 <action selector="notifyPhone" destination="AgC-eL-Hgc" id="JeH-aR-syf"/>
                             </connections>
                         </button>
+                        <switch width="1" alignment="left" value="YES" title="Enabled" id="K8N-Vs-5cc">
+                            <connections>
+                                <action selector="didSwitchEnabled:" destination="AgC-eL-Hgc" id="FKy-7a-zbr"/>
+                            </connections>
+                        </switch>
                     </items>
                 </controller>
             </objects>
