@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496000B61A219AB000DF6028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 496000B51A219AB000DF6028 /* main.m */; };
+		496000B91A219AB000DF6028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 496000B81A219AB000DF6028 /* AppDelegate.m */; };
+		496000BC1A219AB000DF6028 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496000BB1A219AB000DF6028 /* ViewController.m */; };
+		496000BF1A219AB000DF6028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496000BD1A219AB000DF6028 /* Main.storyboard */; };
+		496000C11A219AB000DF6028 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496000C01A219AB000DF6028 /* Images.xcassets */; };
+		496000C41A219AB000DF6028 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496000C21A219AB000DF6028 /* LaunchScreen.xib */; };
+		496000D01A219AB000DF6028 /* tetherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 496000CF1A219AB000DF6028 /* tetherTests.m */; };
+		496000E01A219AC600DF6028 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496000DF1A219AC600DF6028 /* WatchKit.framework */; };
+		496000E71A219AC600DF6028 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496000E61A219AC600DF6028 /* InterfaceController.m */; };
+		496000EA1A219AC600DF6028 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496000E91A219AC600DF6028 /* NotificationController.m */; };
+		496000ED1A219AC600DF6028 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496000EC1A219AC600DF6028 /* GlanceController.m */; };
+		496000EF1A219AC600DF6028 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496000EE1A219AC600DF6028 /* Images.xcassets */; };
+		496000F31A219AC700DF6028 /* tether Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 496000F21A219AC700DF6028 /* tether Watch App.app */; };
+		496000FA1A219AC700DF6028 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496000F91A219AC700DF6028 /* Interface.storyboard */; };
+		496000FC1A219AC700DF6028 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496000FB1A219AC700DF6028 /* Images.xcassets */; };
+		496000FF1A219AC700DF6028 /* tether WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 496000DD1A219AC600DF6028 /* tether WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		496000CA1A219AB000DF6028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496000A81A219AB000DF6028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496000AF1A219AB000DF6028;
+			remoteInfo = tether;
+		};
+		496000F41A219AC700DF6028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496000A81A219AB000DF6028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496000F11A219AC700DF6028;
+			remoteInfo = "tether Watch App";
+		};
+		496000FD1A219AC700DF6028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496000A81A219AB000DF6028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496000DC1A219AC600DF6028;
+			remoteInfo = "tether WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		496001061A219AC700DF6028 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				496000FF1A219AC700DF6028 /* tether WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		496000B01A219AB000DF6028 /* tether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496000B41A219AB000DF6028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496000B51A219AB000DF6028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		496000B71A219AB000DF6028 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		496000B81A219AB000DF6028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		496000BA1A219AB000DF6028 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		496000BB1A219AB000DF6028 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		496000BE1A219AB000DF6028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496000C01A219AB000DF6028 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		496000C31A219AB000DF6028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		496000C91A219AB000DF6028 /* tetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496000CE1A219AB000DF6028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496000CF1A219AB000DF6028 /* tetherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tetherTests.m; sourceTree = "<group>"; };
+		496000DD1A219AC600DF6028 /* tether WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tether WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496000DF1A219AC600DF6028 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		496000E31A219AC600DF6028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496000E41A219AC600DF6028 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		496000E51A219AC600DF6028 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		496000E61A219AC600DF6028 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		496000E81A219AC600DF6028 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		496000E91A219AC600DF6028 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		496000EB1A219AC600DF6028 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		496000EC1A219AC600DF6028 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		496000EE1A219AC600DF6028 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		496000F21A219AC700DF6028 /* tether Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tether Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496000F81A219AC700DF6028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496000F91A219AC700DF6028 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		496000FB1A219AC700DF6028 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496000AD1A219AB000DF6028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496000C61A219AB000DF6028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496000DA1A219AC600DF6028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496000E01A219AC600DF6028 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		496000A71A219AB000DF6028 = {
+			isa = PBXGroup;
+			children = (
+				496000B21A219AB000DF6028 /* tether */,
+				496000CC1A219AB000DF6028 /* tetherTests */,
+				496000E11A219AC600DF6028 /* tether WatchKit Extension */,
+				496000F61A219AC700DF6028 /* tether Watch App */,
+				496000DE1A219AC600DF6028 /* Frameworks */,
+				496000B11A219AB000DF6028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		496000B11A219AB000DF6028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496000B01A219AB000DF6028 /* tether.app */,
+				496000C91A219AB000DF6028 /* tetherTests.xctest */,
+				496000DD1A219AC600DF6028 /* tether WatchKit Extension.appex */,
+				496000F21A219AC700DF6028 /* tether Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496000B21A219AB000DF6028 /* tether */ = {
+			isa = PBXGroup;
+			children = (
+				496000B71A219AB000DF6028 /* AppDelegate.h */,
+				496000B81A219AB000DF6028 /* AppDelegate.m */,
+				496000BA1A219AB000DF6028 /* ViewController.h */,
+				496000BB1A219AB000DF6028 /* ViewController.m */,
+				496000BD1A219AB000DF6028 /* Main.storyboard */,
+				496000C01A219AB000DF6028 /* Images.xcassets */,
+				496000C21A219AB000DF6028 /* LaunchScreen.xib */,
+				496000B31A219AB000DF6028 /* Supporting Files */,
+			);
+			path = tether;
+			sourceTree = "<group>";
+		};
+		496000B31A219AB000DF6028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496000B41A219AB000DF6028 /* Info.plist */,
+				496000B51A219AB000DF6028 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		496000CC1A219AB000DF6028 /* tetherTests */ = {
+			isa = PBXGroup;
+			children = (
+				496000CF1A219AB000DF6028 /* tetherTests.m */,
+				496000CD1A219AB000DF6028 /* Supporting Files */,
+			);
+			path = tetherTests;
+			sourceTree = "<group>";
+		};
+		496000CD1A219AB000DF6028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496000CE1A219AB000DF6028 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		496000DE1A219AC600DF6028 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				496000DF1A219AC600DF6028 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		496000E11A219AC600DF6028 /* tether WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				496000E51A219AC600DF6028 /* InterfaceController.h */,
+				496000E61A219AC600DF6028 /* InterfaceController.m */,
+				496000E81A219AC600DF6028 /* NotificationController.h */,
+				496000E91A219AC600DF6028 /* NotificationController.m */,
+				496000EB1A219AC600DF6028 /* GlanceController.h */,
+				496000EC1A219AC600DF6028 /* GlanceController.m */,
+				496000EE1A219AC600DF6028 /* Images.xcassets */,
+				496000E21A219AC600DF6028 /* Supporting Files */,
+			);
+			path = "tether WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		496000E21A219AC600DF6028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496000E31A219AC600DF6028 /* Info.plist */,
+				496000E41A219AC600DF6028 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		496000F61A219AC700DF6028 /* tether Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				496000F91A219AC700DF6028 /* Interface.storyboard */,
+				496000FB1A219AC700DF6028 /* Images.xcassets */,
+				496000F71A219AC700DF6028 /* Supporting Files */,
+			);
+			path = "tether Watch App";
+			sourceTree = "<group>";
+		};
+		496000F71A219AC700DF6028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496000F81A219AC700DF6028 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496000AF1A219AB000DF6028 /* tether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496000D31A219AB000DF6028 /* Build configuration list for PBXNativeTarget "tether" */;
+			buildPhases = (
+				496000AC1A219AB000DF6028 /* Sources */,
+				496000AD1A219AB000DF6028 /* Frameworks */,
+				496000AE1A219AB000DF6028 /* Resources */,
+				496001061A219AC700DF6028 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496000FE1A219AC700DF6028 /* PBXTargetDependency */,
+			);
+			name = tether;
+			productName = tether;
+			productReference = 496000B01A219AB000DF6028 /* tether.app */;
+			productType = "com.apple.product-type.application";
+		};
+		496000C81A219AB000DF6028 /* tetherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496000D61A219AB000DF6028 /* Build configuration list for PBXNativeTarget "tetherTests" */;
+			buildPhases = (
+				496000C51A219AB000DF6028 /* Sources */,
+				496000C61A219AB000DF6028 /* Frameworks */,
+				496000C71A219AB000DF6028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496000CB1A219AB000DF6028 /* PBXTargetDependency */,
+			);
+			name = tetherTests;
+			productName = tetherTests;
+			productReference = 496000C91A219AB000DF6028 /* tetherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		496000DC1A219AC600DF6028 /* tether WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496001031A219AC700DF6028 /* Build configuration list for PBXNativeTarget "tether WatchKit Extension" */;
+			buildPhases = (
+				496000D91A219AC600DF6028 /* Sources */,
+				496000DA1A219AC600DF6028 /* Frameworks */,
+				496000DB1A219AC600DF6028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496000F51A219AC700DF6028 /* PBXTargetDependency */,
+			);
+			name = "tether WatchKit Extension";
+			productName = "tether WatchKit Extension";
+			productReference = 496000DD1A219AC600DF6028 /* tether WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		496000F11A219AC700DF6028 /* tether Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496001001A219AC700DF6028 /* Build configuration list for PBXNativeTarget "tether Watch App" */;
+			buildPhases = (
+				496000F01A219AC700DF6028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tether Watch App";
+			productName = "tether Watch App";
+			productReference = 496000F21A219AC700DF6028 /* tether Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496000A81A219AB000DF6028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = dorystudios;
+				TargetAttributes = {
+					496000AF1A219AB000DF6028 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					496000C81A219AB000DF6028 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 496000AF1A219AB000DF6028;
+					};
+					496000DC1A219AC600DF6028 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					496000F11A219AC700DF6028 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 496000AB1A219AB000DF6028 /* Build configuration list for PBXProject "tether" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 496000A71A219AB000DF6028;
+			productRefGroup = 496000B11A219AB000DF6028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496000AF1A219AB000DF6028 /* tether */,
+				496000C81A219AB000DF6028 /* tetherTests */,
+				496000DC1A219AC600DF6028 /* tether WatchKit Extension */,
+				496000F11A219AC700DF6028 /* tether Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496000AE1A219AB000DF6028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496000BF1A219AB000DF6028 /* Main.storyboard in Resources */,
+				496000C41A219AB000DF6028 /* LaunchScreen.xib in Resources */,
+				496000C11A219AB000DF6028 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496000C71A219AB000DF6028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496000DB1A219AC600DF6028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496000EF1A219AC600DF6028 /* Images.xcassets in Resources */,
+				496000F31A219AC700DF6028 /* tether Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496000F01A219AC700DF6028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496000FA1A219AC700DF6028 /* Interface.storyboard in Resources */,
+				496000FC1A219AC700DF6028 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496000AC1A219AB000DF6028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496000BC1A219AB000DF6028 /* ViewController.m in Sources */,
+				496000B91A219AB000DF6028 /* AppDelegate.m in Sources */,
+				496000B61A219AB000DF6028 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496000C51A219AB000DF6028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496000D01A219AB000DF6028 /* tetherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496000D91A219AC600DF6028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496000EA1A219AC600DF6028 /* NotificationController.m in Sources */,
+				496000E71A219AC600DF6028 /* InterfaceController.m in Sources */,
+				496000ED1A219AC600DF6028 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		496000CB1A219AB000DF6028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496000AF1A219AB000DF6028 /* tether */;
+			targetProxy = 496000CA1A219AB000DF6028 /* PBXContainerItemProxy */;
+		};
+		496000F51A219AC700DF6028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496000F11A219AC700DF6028 /* tether Watch App */;
+			targetProxy = 496000F41A219AC700DF6028 /* PBXContainerItemProxy */;
+		};
+		496000FE1A219AC700DF6028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496000DC1A219AC600DF6028 /* tether WatchKit Extension */;
+			targetProxy = 496000FD1A219AC700DF6028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		496000BD1A219AB000DF6028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496000BE1A219AB000DF6028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		496000C21A219AB000DF6028 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496000C31A219AB000DF6028 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		496000D11A219AB000DF6028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		496000D21A219AB000DF6028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		496000D41A219AB000DF6028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tether/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		496000D51A219AB000DF6028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tether/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		496000D71A219AB000DF6028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tetherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tether.app/tether";
+			};
+			name = Debug;
+		};
+		496000D81A219AB000DF6028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tetherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tether.app/tether";
+			};
+			name = Release;
+		};
+		496001011A219AC700DF6028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = tether_WatchKit_Extension;
+				INFOPLIST_FILE = "tether Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		496001021A219AC700DF6028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = tether_WatchKit_Extension;
+				INFOPLIST_FILE = "tether Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		496001041A219AC700DF6028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tether WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		496001051A219AC700DF6028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tether WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496000AB1A219AB000DF6028 /* Build configuration list for PBXProject "tether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496000D11A219AB000DF6028 /* Debug */,
+				496000D21A219AB000DF6028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496000D31A219AB000DF6028 /* Build configuration list for PBXNativeTarget "tether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496000D41A219AB000DF6028 /* Debug */,
+				496000D51A219AB000DF6028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		496000D61A219AB000DF6028 /* Build configuration list for PBXNativeTarget "tetherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496000D71A219AB000DF6028 /* Debug */,
+				496000D81A219AB000DF6028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		496001001A219AC700DF6028 /* Build configuration list for PBXNativeTarget "tether Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496001011A219AC700DF6028 /* Debug */,
+				496001021A219AC700DF6028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		496001031A219AC700DF6028 /* Build configuration list for PBXNativeTarget "tether WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496001041A219AC700DF6028 /* Debug */,
+				496001051A219AC700DF6028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 496000A81A219AB000DF6028 /* Project object */;
+}
